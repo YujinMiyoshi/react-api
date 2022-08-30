@@ -26,8 +26,7 @@ SECRET_KEY = 'tq@1mqet)_$h+n^g41nip45yq*cg^4ve^&9w5v5mjepn1kip4o'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*',
-    '.vercel.app',
+    '*'
 ]
 
 
@@ -59,7 +58,7 @@ MIDDLEWARE = [
 
 
 CORS_ORIGIN_WHITELIST = [
-    'https://react-tasks.vercel.app',
+    'https://react-tasks-swart.vercel.app',
 ]
 
 ROOT_URLCONF = 'drfapi.urls'
@@ -132,5 +131,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')

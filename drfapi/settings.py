@@ -28,7 +28,7 @@ SECRET_KEY = 'tq@1mqet)_$h+n^g41nip45yq*cg^4ve^&9w5v5mjepn1kip4o'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*'
+    '219.94.254.50'
 ]
 
 
@@ -134,3 +134,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+STATIC_ROOT = '/usr/share/nginx/html/'
